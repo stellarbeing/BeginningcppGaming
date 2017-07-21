@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		1DFD8C431F201BC000408D22 /* BcppthruGameProg */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BcppthruGameProg; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DFD8C461F201BC000408D22 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1DFD8C461F201BC000408D22 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; usesTabs = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,25 @@
 		1DFD8C451F201BC000408D22 /* BcppthruGameProg */ = {
 			isa = PBXGroup;
 			children = (
+				1DFD8C611F201FD700408D22 /* Game Over */,
+				1DFD8C601F201FD000408D22 /* GameStats */,
 				1DFD8C461F201BC000408D22 /* main.cpp */,
 			);
 			path = BcppthruGameProg;
+			sourceTree = "<group>";
+		};
+		1DFD8C601F201FD000408D22 /* GameStats */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = GameStats;
+			sourceTree = "<group>";
+		};
+		1DFD8C611F201FD700408D22 /* Game Over */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Game Over";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
